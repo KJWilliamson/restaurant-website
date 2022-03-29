@@ -1,0 +1,638 @@
+html {
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+*, *:before, *:after {
+    /* means it inherits size from parent */
+    box-sizing: inherit;
+}
+
+body {
+    line-height: 1.5;
+}
+
+html, body {
+    height: 100%;
+}
+
+/* img, video {
+    height: auto;
+    max-width: 100%;
+} */
+
+/* BEGINNING OF HEADER */
+/* top part with image as background */
+header {
+    height: 90vh;
+    width: 100%;
+    background: url('images/flipcrop.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+/* nav bar */
+.nav {
+    height: 10%;
+    width: 100%;
+    text-align: center;
+}
+
+.nav * {
+    float: left;
+
+}
+
+/* empty left side of nav */
+.navL {
+    height: 100%;
+    width: 40%;
+    float: left;
+    
+}
+
+/* links in nav */
+.navR {
+    height: 100%;
+    width: 60%;
+    float: right;
+/*     border: 2px solid red; */
+    display: block;
+    padding: 4px;
+    font-size: 20px;
+}
+
+.icon8 {
+    height: 20px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navLinks {
+    float: right;
+} 
+
+li {
+    display: block;
+    padding: 16px;
+    float: left;
+}
+/* h1, search & button, social media */
+.headerL {
+    height: 90%;
+    width: 50%;
+    float: left;
+/*     border: 2px solid purple; */
+}
+
+/* only header image on this side*/
+.headerR {
+    height: 90%;
+    width: 50%;
+}
+
+
+h1 {
+    font-size: 10vh;
+    padding-left: 55px;
+}
+
+form {
+    float: left;
+    padding-left: 55px;
+}
+
+input {
+    
+    height: 35px;
+    width: 280px;
+}
+
+button {
+    float: left;
+    background: rgb(255,130,0);
+    color: white;
+    border: none;
+    height: 6%;
+    width: 13%;
+    padding-left: 1px;
+}
+
+
+.icons {
+    margin-top: 50px;
+    padding-left: 55px;
+}
+
+.facebook {
+    font-size:24px;
+    color: rgb(255,130,0);
+    
+}
+
+.twitter {
+    font-size:24px;
+    color: rgb(255,130,0);
+    
+    
+}
+
+.instagram {
+    font-size:24px;
+    color: rgb(255,130,0);
+    
+    
+}
+
+span {
+    color: black;
+    display: inline;
+}
+
+/* END OF HEADER */
+
+/* TOP CONTENT WHICH IS UNDER HEADER (2nd part) */
+
+/* Parent bucket */
+.topContent {
+    height: 90vh;
+    width: 100%;
+/*     border: 2px solid orange; */
+}
+
+.topLeft {
+    height: 100%;
+    width: 33.33%;
+/*     border: 2px solid purple; */
+    background: url('images/pie2.jpg');
+    background-color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
+    float: left;
+    position: relative;
+}
+
+.topMiddle {
+    height: 100%;
+    width: 33.33%;
+    background-color: rgb (250, 250, 252);
+    float: left;
+}
+
+
+ .topRight {
+    height: 100%;
+    width: 33.33%;
+/*     border: 2px solid purple; */
+    background: url('images/oatmeal2.jpeg');
+    background-color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
+    float: right;
+    position: relative;
+ }
+
+.aboutUs {
+    color: rgb(255,130,0);
+    font-size: 24px;
+    padding-left: 4px;
+}
+
+h2 {
+    font-size: 7vh;
+    padding-left: 4px;
+}
+
+p {
+    padding-left: 4px;
+}
+
+.menu {
+    width: 23%;
+}
+/* END OF TOP CONTENT*/
+
+/* GALLERY SECTION WITH TEXT FIRST */
+
+.mainGallery {
+    height: 55vh;
+    width: 100%;
+    background: rgb(241, 246, 247);
+/*     border: 2px solid red; */
+}
+
+.galleryHeader {
+    height: 15vh;
+    width: 100%;
+    text-align: center;
+    float: left;
+    padding-top: 72px;
+    font-size: 24px;
+    color: rgb(255,130,0);
+/*     border: 2px solid green; */
+    
+}
+
+.galleryNav {
+    height: 10vh;
+    width: 100%;
+    float: left;
+/*     border: 2px solid blue; */
+}
+
+.specialty {
+    height: 10vh;
+    width: 100%;
+    font-size: 7vh;
+    text-align: center;
+    float: left;
+/*     border: 2px solid blue; */
+}
+
+.meals {
+    padding: 6px;
+    display: block;
+    padding-left: 475px;
+    font-size: 20px;
+}
+
+.hr {
+    height: 5vh;
+    width: 100%;
+    text-align: center;
+/*     border: 1px solid pink; */
+    float: left;
+}
+
+/* https://stackoverflow.com/questions/14821087/horizontal-line-and-right-way-to-code-it-in-html-css
+*/
+.line {
+    display: block;
+    height: 3px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+/* GALLERY SECTIONS WITH PHOTOS */
+.topGallery {
+    height: 55vh;
+    width: 100%;
+    background-color: rgb(241, 246, 247);
+/*     border: 2px solid green; */
+}
+
+/* FIRST ROW */
+.one {
+    height: 100%;
+    width: 5.5%;
+    float: left;
+/*     border: 2px solid white; */
+}
+
+
+.two {
+    height: 100%;
+    width: 20%;
+    float: left;
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('images/bowl.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+/*     border: 2px solid purple; */
+}
+/* text on top of image */
+.price {
+    color: white;
+    text-align: center;
+    padding-top: 30px;
+    font-size: 25px;
+    font-weight: 900;
+}
+
+.stars {
+    text-align: center;
+    
+}
+
+.title {
+    color: white;
+    text-align: center;
+    font-size: 25px;
+}
+
+.order {
+    color: white;
+    width: 35%;
+    margin-left: 90px;
+    margin-top: 25px;
+}
+/* end of text and buttons on top of image */
+.three {
+    height: 100%;
+    width: 3%;
+    float: left;
+/*     border: 2px solid white; */
+}
+
+.four {
+    height: 100%;
+    width: 20%;
+    float: left;
+    background: url('images/bowls.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+/*     border: 2px solid purple; */
+}
+
+.five {
+    height: 100%;
+    width: 3%;
+    float: left;
+/*     border: 2px solid white; */
+}
+
+.six {
+    height: 100%;
+    width: 20%;
+    float: left;
+    background: url('images/mushroom.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+/*     border: 2px solid purple; */
+}
+
+.seven {
+    height: 100%;
+    width: 3%;
+    float: left;
+/*     border: 2px solid white; */
+}
+
+.eight {
+    height: 100%;
+    width: 20%;
+    float: left;
+    background: url('images/egg.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+/*     border: 2px solid purple; */
+}
+
+.nine {
+    height: 100%;
+    width: 5.5%;
+    float: left;
+/*     border: 2px solid white; */
+}
+/* END OF FIRST ROW OF PICTURES */
+
+/* WHITE SPACE BETWEEN PICS*/
+
+.middleBlank {
+    height: 5vh;
+    width: 100%;
+    
+}
+
+.middleNothing {
+    height: 100%;
+    width: 100%;
+    background-color: rgb(241, 246, 247);
+    float: left;
+}
+/* SECOND ROW OF PICTURES */
+.bottomGallery {
+    height: 55vh;
+    width: 100%;
+    background-color: rgb(241, 246, 247);
+/*     border: 2px solid green; */
+}
+
+/* SECOND ROW */
+.ten {
+/*     height: 100%; */
+    width: 5.5%;
+    float: left;
+    overflow: hidden;
+    border: 2px solid rgb(241, 246, 247);
+}
+
+
+.eleven {
+    height: 100%;
+    width: 20%;
+    float: left;
+    background: url('images/food11.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 2px solid rgb(241, 246, 247);
+}
+
+
+.twelve {
+    height: 100%;
+    width: 3%;
+    float: left;
+    border: 2px solid rgb(241, 246, 247);
+}
+
+.thirteen {
+    height: 100%;
+    width: 20%;
+    float: left;
+    background: url('images/food13.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 2px solid rgb(241, 246, 247);
+}
+
+.fourteen {
+    height: 100%;
+    width: 3%;
+    float: left;
+    border: 2px solid rgb(241, 246, 247);
+}
+
+.fifteen {
+    height: 100%;
+    width: 20%;
+    float: left;
+    background: url('images/chili.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 2px solid rgb(241, 246, 247);
+}
+
+.sixteen {
+    height: 100%;
+    width: 3%;
+    float: left;
+    border: 2px solid rgb(241, 246, 247);
+}
+
+.seventeen {
+    height: 100%;
+    width: 20%;
+    float: left;
+    background: url('images/pasta.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 2px solid rgb(241, 246, 247);
+}
+
+.eighteen {
+    height: 100%;
+    width: 5.5%;
+    float: left;
+    border: 2px solid rgb(241, 246, 247);
+}
+/* END OF SECOND ROW OF IMAGES*/
+
+/* footer */
+
+.bottomBucket {
+    height: 141vh;
+    width: 100%;
+/*     border: 2px solid red; */
+}
+
+.top {
+    height: 140vh;
+    width: 100%;
+    float: left;
+    background: url('images/coffee.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+/*     border: 2px solid purple; */
+}
+
+.topHeader {
+    height: 50vh;
+    width: 100%;
+/*     border: 2px solid blue; */
+}
+
+.bookTable {
+    color: rgb(255,130,0);
+    font-size: 24px;
+    text-align: center;
+    padding-top: 47px;
+}
+
+.openingHours {
+    font-size: 7vh;
+    text-align: center;
+}
+
+.phoneIcon {
+    text-align: center;
+}
+
+.callNow {
+    font-size: 24px;
+    text-align: center;
+}
+
+.phoneNum {
+    color: rgb(255,130,0);
+    font-size: 27px;
+    text-align: center;
+}
+
+.topList {
+    height: 8vh;
+    width: 100%;
+    font-size: 24px;
+    padding-left: 500px;
+    float:left;
+/*     border: 2px solid coral; */
+}
+
+.bottomList {
+    height: 11vh;
+    width: 100%;
+    font-size: 24px;
+/*     border: 2px solid coral; */
+    float: left;
+    padding-left: 500px;
+}
+
+.bottomImg {
+    height: 59vh;
+    width: 100%;
+}
+
+.imgL {
+    float:left;
+    height: 100%;
+    width: 33%;
+
+}
+
+imgM {
+    float: left;
+    height: 100%;
+}
+
+.imgR {
+    float: left;
+    height: 100%;
+}
+.bottomBlank {
+    height: 12vh;
+    width: 100%;
+    float: left;
+}
+
+.footer {
+    height: 70vh;
+    width: 100%;
+/*     border: 2px solid black; */
+    background: white;
+}
+
+.testimonials {
+    font-size: 24px;
+    color: rgb(255,130,0);
+    text-align: center;
+}
+
+.customers {
+    font-size: 7vh;
+    text-align: center;
+}
+
+.woman {
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    margin-left: 645px;
+}
+
+.womanName {
+    font-size: 28px;
+    text-align: center;
+}
+
+.job {
+    font-size: 22px;
+    text-align: center;
+}
+
+.reviewStars {
+    text-align: center;
+}
+
+.review {
+    text-align: center;
+}
+
+/*******************************************/
+/* MEDIA QUERIES */
+
