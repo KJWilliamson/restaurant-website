@@ -1,6 +1,6 @@
-# restaurant-website for client
+<h2> Local restaurant website for client</h2>
 
-# need to make responsive for mobile
+<h3>Built using HTML and CSS</h3>
 
 https://local-cuisine.netlify.app/
 
